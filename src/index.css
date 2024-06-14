@@ -1,0 +1,23 @@
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+    :root {
+        --color-text-base:#E6EAEE
+        --font-text-base:Helvetica
+        --color-fill:E6EAEE
+    }
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text-base: #E6EAEE;  /* Light gray for text */
+    --font-text-base: Helvetica;
+    --color-fill: #E6EAEE;      /* Light gray for background */
+  }
+}
