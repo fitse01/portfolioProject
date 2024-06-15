@@ -2,7 +2,7 @@ import React from 'react'
 
 const Service = () => {
   return (
-    <div className='flex flex-col justify-center item-center mx-32 my-5'>
+    <div className='flex flex-col justify-center item-center mx-32 my-5' id='service'>
         <div className='flex justify-center  my-10'>SERVICES</div>
         <div className='flex justify-center'>
             <h2 className='text-5xl font-semibold mb-20'>Quality Services</h2>

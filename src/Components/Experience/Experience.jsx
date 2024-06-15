@@ -3,17 +3,16 @@ import { PiCubeFill } from "react-icons/pi";
 
 export const Experience = () => {
   return (
-    <div className=' bg-skin-fill my-28'>
+    <div className=' bg-skin-fill my-28' id='resume'>
         <div className='py-28 flex flex-col gap-8 justify-center items-center'>
             <div className='text-gray-400 font-skin-base'>EXPERIENCE</div>
             <div className='text-6xl  font-medium pb-10'> Professional Resume</div>
             <div>
-                <div className='flex gap-20 ' >
-
+                <div className='flex  xl:gap-10'>
                 <div>
                         <div className='border border-gray-300 rounded-md'  >
                             <div>
-                                <div className='flex gap-5 py-10 mr-60 ml-8'>
+                                <div className='flex gap-5 py-10 md:mr-10 xl:mr-10 ml-8'>
                                     <div className='w-16 h-16 bg-slate-50 flex justify-center items-center rounded-xl'><PiCubeFill  className='w-8 h-8 bg-slate-50'/></div>
                                     <div >
                                         <div> 2021 - Present</div>
@@ -57,7 +56,7 @@ export const Experience = () => {
                 <div>
                     <div className='border border-gray-300 rounded-md'  >
                         <div>
-                            <div className='flex gap-5 py-10 mr-60 ml-8'>
+                            <div className='flex gap-5 py-10 md:mr-20 ml-8 xl:mr-10'>
                                 <div className='w-16 h-16 bg-slate-50 flex justify-center items-center rounded-xl'><PiCubeFill  className='w-8 h-8 bg-slate-50'/></div>
                                 <div >
                                     <div> 2021 - Present</div>

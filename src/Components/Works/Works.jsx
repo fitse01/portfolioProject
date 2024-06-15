@@ -9,13 +9,13 @@ import img4 from "../../assets/projects/10007.jpeg"
 
 export const Works = ({ src, alt, caption, onClose }) => {
   return (
-    <div className='mx-32 '>
+    <div className='mx-32 ' id="project">
         <div className='py-28 flex flex-col gap-8 justify-center items-center'>
             <div className='text-gray-400 font-skin-base'>WORKS</div>
             <div  className='text-6xl  font-medium pb-10'>Creative Portfolio</div>
 
             {/* Projects */}
-            <div className='grid grid-cols-2 md:grid-cols-3 gap-20'>
+            <div className='grid grid-cols-2 md:grid-cols-3 gap-9'>
                 <div className='border border-gray-300 rounded-2xl'>
                     <div>
                         <img src={img1} alt="" />

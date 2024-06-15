@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
   return (
-    <div className='bg-skin-fill mx-32 py-20'>  
+    <div className='mx-32 py-20 mt-40' id='about'>  
         <div className='flex justify-center mx-10 gap-48'>
             <div className='flex flex-col'>
             <div className='flex justify-start w-[600px] h-96 py-10 items-center'>
@@ -32,7 +32,7 @@ const Banner = () => {
             </div>
                 <div className='flex gap-10'>
                     <div className='p-5 bg-slate-900  text-white hover:bg-white hover:text-black' >Download CV </div>
-                    <div className='p-5 bg-slate-600 text-white hover:bg-white hover:text-black '>Got Project</div>
+                    <div className='p-5 bg-slate-600 text-white hover:bg-white hover:text-black '><a href="#contact"> Got Project</a></div>
                 </div>
             </div>
             <div> 
