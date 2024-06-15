@@ -1,13 +1,13 @@
 import React from 'react'
-import img from "../../assets/portfolioImage.png"
+import img from "../../assets/meti.jpg"
 import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
   return (
-    <div className='mx-32 py-20 mt-40' id='about'>  
+    <div className='bg-skin-fill mx-32 py-20 mt-40' id='about'>  
         <div className='flex justify-center mx-10 gap-48'>
             <div className='flex flex-col'>
-            <div className='flex justify-start w-[600px] h-96 py-10 items-center'>
+            <div className='flex justify-start w-[600px] h-60 py-10 items-center'>
                 <h2 className='text-3xl'>
                 <TypeAnimation
                 sequence={[
@@ -36,7 +36,7 @@ const Banner = () => {
                 </div>
             </div>
             <div> 
-                <img src={img} alt=""  className='w-[500px] h-[500px] flex justify-end'/>
+                <img src={img} alt=""  className='w-60 h-60 flex justify-end'/>
             </div>
         </div>
     </div>

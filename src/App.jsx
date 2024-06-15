@@ -9,6 +9,7 @@ import { Testimonial } from './Components/Testimonial/Testimonial'
 import { Blog } from './Components/Blog/Blog'
 import { Contact } from './Components/Contact/Contact'
 import { Footer } from './Components/Footer/Footer'
+import { About } from './Components/About/About'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <>
     <Header/>
     <Banner/>
+    <About/>
     <Service/>
     <Experience/>
     <Works/>

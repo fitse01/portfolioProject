@@ -30,7 +30,7 @@ export const Contact = () => {
                             <div  >
                                 <small><CiMail className='w-5 h-5'/></small>
                                 <h3 className='mt-3 text-xl'>Email Us:</h3>
-                                <p className='text-gray-400 font-skin-base py-2'>fitsumtafese01@gmail.com</p>
+                                <a className='hover:text-red-400  hover:scale-[100]' href="#contact"><i className='text-xl text-gray-400 hover:text-red-400  '>metagestafese@gmail.com</i></a>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ export const Contact = () => {
         </div>
 
         <div>
-      <h1 className='flex justify-center item-center mx-32 py-9 text-2xl'>This is my Google Maps web page</h1>
+      <h1 className='flex justify-center item-center mx-32 py-9 text-2xl text-gray-600 font-skin-base'>This is my Google Maps web page</h1>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.2819621269364!2d39.29187997473251!3d8.568863696022456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b1fe4c294e6cb%3A0x6b86d6a89f24215c!2sAdama%20Science%20And%20Technology%20University%20-%20ASTU!5e0!3m2!1sen!2set!4v1718461597216!5m2!1sen!2set"
         width="1300"
